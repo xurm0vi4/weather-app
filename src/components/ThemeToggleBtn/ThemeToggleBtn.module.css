@@ -1,0 +1,46 @@
+.darkmodeBtn {
+  width: 100px;
+  height: 40px;
+  border-radius: 40px;
+  background: #d9d9d9;
+  position: relative;
+  cursor: pointer;
+  border: 1px solid #000;
+  outline: none;
+  padding: 0;
+}
+
+.darkmodeImg {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+}
+
+.darkmodeImg.dark {
+  left: 65px;
+}
+
+.darkmodeImg.light {
+  left: 5px;
+}
+
+.text {
+  font-family: Poppins;
+  font-size: 17.5px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-align: center;
+}
+
+.text.dark {
+  color: #fff;
+}
+.text.light {
+  color: #000;
+}

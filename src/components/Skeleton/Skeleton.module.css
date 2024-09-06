@@ -1,0 +1,16 @@
+.skeleton {
+  background: linear-gradient(-90deg, #444444 0%, #5b5b5b 50%, #444444 100%);
+  background-size: 500% 500%;
+  animation: pulse 1.2s ease-in-out infinite;
+  border-radius: 30px;
+  filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.5));
+}
+
+@keyframes pulse {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
